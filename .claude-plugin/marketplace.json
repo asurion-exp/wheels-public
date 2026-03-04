@@ -1,7 +1,11 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "wheels",
   "description": "A public, open-source Claude Code plugin marketplace. Skills, MCP servers, hooks, and more — organized by concept.",
-  "owner": "Zachary Story",
+  "owner": {
+    "name": "Zachary Story",
+    "email": "ztstory@gmail.com"
+  },
   "version": "0.1.0",
   "metadata": {
     "pluginRoot": "./scopes"
@@ -10,7 +14,8 @@
     {
       "name": "jj",
       "description": "Jujutsu (jj) version control commands - a modern alternative to git",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "source": "./scopes/jj"
     }
   ]
 }
