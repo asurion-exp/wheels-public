@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "PLUGIN_NAME": {
+      "command": "npx",
+      "args": ["-y", "PACKAGE_NAME"],
+      "env": {}
+    }
+  }
+}

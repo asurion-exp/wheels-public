@@ -1,0 +1,10 @@
+{
+  "name": "wheels",
+  "description": "A public, open-source Claude Code plugin marketplace. Skills, MCP servers, hooks, and more — organized by concept.",
+  "owner": "Zachary Story",
+  "version": "0.1.0",
+  "metadata": {
+    "pluginRoot": "./scopes"
+  },
+  "plugins": []
+}
