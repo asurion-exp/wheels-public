@@ -27,7 +27,7 @@ claude --plugin-dir ./scopes/<plugin-name>
 
 | Plugin | Description | Components |
 | ------ | ----------- | ---------- |
-| _none yet_ | — | — |
+| [jj](scopes/jj/) | Jujutsu (jj) version control commands — a modern alternative to git | skill, commands |
 
 ## How It's Organized
 
