@@ -7,7 +7,7 @@ A public, open-source plugin marketplace for [Claude Code](https://docs.anthropi
 Add the marketplace:
 
 ```bash
-claude /plugin marketplace add https://github.com/zstory/wheels
+claude /plugin marketplace add https://github.com/asurion-exp/wheels-public
 ```
 
 Browse and install plugins:
