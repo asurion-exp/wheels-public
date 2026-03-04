@@ -2,19 +2,24 @@
 
 A public, open-source plugin marketplace for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Install skills, MCP servers, hooks, and more directly from this repo.
 
+IMPORTANT! This is *public*. If anything is sensitive, client specific, or otherwise a trade secret it must go in a private repo.
+
 ## Quick Start
 
-Add the marketplace:
+Add the marketplace (run inside a Claude Code session):
 
-```bash
-claude /plugin marketplace add https://github.com/asurion-exp/wheels-public
+```
+/plugin marketplace add asurion-exp/wheels-public
+
+# OR if you have cloned the repo locally
+/plugin marketplace add ./
 ```
 
 Browse and install plugins:
 
-```bash
-claude /plugin marketplace list wheels
-claude /plugin install wheels/<plugin-name>
+```
+/plugin marketplace list
+/plugin install <plugin-name>@wheels-public
 ```
 
 Or install a plugin directly by path:
